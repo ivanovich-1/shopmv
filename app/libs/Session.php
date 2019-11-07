@@ -11,7 +11,7 @@ class Session
 	function __construct()
 	{
 		session_start();
-		if (isset($_SESSION['user'])) {
+		if(isset($_SESSION['user'])) {
 			$this->user = $_SESSION['user'];
 			$this->login = true;
 		} else {
@@ -21,7 +21,7 @@ class Session
 	}
 	
 	// Creamos el metodo Login para que el usuario cuando se loguee la sesion se active
-	public function login($user)
+	public function login($user) 
 	{
 		$this->user = $user;
 		$_SESSION['user'] = $user;

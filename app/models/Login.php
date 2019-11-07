@@ -75,10 +75,10 @@ class Login
 		
 		$headers = 'MIME-Version: 1.0\r\n';
 		$headers.= 'Content-type:text/html; charset=UTF-8\r\n';
-		$headers.= 'From: ShopMVC\r\n';
-		$headers.= 'Reply-to:administracion@shopmvc.local';
+		$headers.= 'From: ShopMV\r\n';
+		$headers.= 'Reply-to:administracion@shopmv.local';
 		
-		$subject = 'Cambio de contraseña en ShopMVC';
+		$subject = 'Cambio de contraseña en ShopMV';
 		
 		return mail($email, $subject, $msg, $headers);
 	}

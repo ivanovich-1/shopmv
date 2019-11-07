@@ -4,7 +4,7 @@ ini_set('SMTP', 'smtp.iescierva.net');
 
 // Constantes
 define('ENCRIPTKEY', 'elperrodesanroque');
-define('URL', '/var/www/shopmvc');
+define('URL', '/var/www/shopmv');
 define('ROOT', DIRECTORY_SEPARATOR);
 define('APP', ROOT . 'app' . DIRECTORY_SEPARATOR);
 define('VIEWS', URL . APP . 'views/');

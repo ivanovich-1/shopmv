@@ -114,7 +114,8 @@ class AdminUser
 	}
 
 	// Elimina al usuario de la base de datos tras comprobar que no ha sido borrado ya.
-	public function delete($id) {
+	public function delete($id) 
+	{
 
 		$errors = [];
 
