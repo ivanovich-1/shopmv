@@ -20,8 +20,8 @@
 					<td class="text-center"><?= $data['type'][$product->type-1]->description ?></td>
 					<td class="text-center"><?= $product->name ?></td>
 					<td class="text-center"><?= html_entity_decode($product->description) ?></td>
-					<td><a href="<?= ROOT ?>adminProduct/update/<?= $product->id ?>" class="btn btn-info">Modificar</a></td>
-					<td><a href="<?= ROOT ?>adminProduct/delete/<?= $product->id ?>" class="btn btn-danger">Borrar</a></td>
+					<td><a href="<?= ROOT ?>adminproduct/update/<?= $product->id ?>" class="btn btn-info">Modificar</a></td>
+					<td><a href="<?= ROOT ?>adminproduct/delete/<?= $product->id ?>" class="btn btn-danger">Borrar</a></td>
 				</tr>
 			<?php endforeach ?>
 			</tbody>
